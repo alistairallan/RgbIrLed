@@ -1,0 +1,21 @@
+This is the RgbIrLed library for the Arduino.
+
+This library contains no methods, it is simply a mapping of codes for use with IR Remote library to enable an arduino to control some IR RGB LED lamps.
+
+Currently there are mappings for two types of IR RGB LED Remotes 
+Type 0: APA 1616 24 Button Remote
+Type 1: LED 618 24 Button Remote
+
+More will be added as the remotes are acquired. 
+
+Currently Type 0 and Type 1 do not conflict with each others commands so it is possible to control 2 channels, possibly more if there are other devices using 
+
+
+To install, move the downloaded RgbIrLed directory to:
+arduino-1.x/libraries/RgbIrLed
+where arduino-1.x is your Arduino installation directory
+
+After installation you should have files such as:
+arduino-1.x/libraries/RgbIrLed/RgbIrLed.cpp
+
+For details on this library see the github https://github.com/alistairallan/RgbIrLed
