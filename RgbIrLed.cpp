@@ -41,7 +41,7 @@ RgbIrLed::RgbIrLed(int type)
    BB4 = 0xF76897;
 }
 
-//TYPE 0 = LED618 24 Button Remote
+//TYPE 1 = LED618 24 Button Remote
  if(type==1)
  {
    Brighter = 0xFFA05F;
